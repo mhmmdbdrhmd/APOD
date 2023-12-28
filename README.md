@@ -1,3 +1,3 @@
-You can run the code using: bash Apod.sh 
+You can run the code using "bash Apod.sh" command
 
 Works on Ubuntu only. 
