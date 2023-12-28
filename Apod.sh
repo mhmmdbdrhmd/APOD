@@ -78,16 +78,17 @@ convert blurred_background.jpg final_image.jpg -gravity center -composite final_
 
 #Save the photo of the day
 underline="_"
-mkdir -p oldphotos
-cp final_image_resized.jpg "oldphotos/$img_nm$underline.jpg"
+mkdir -p APOD
+cp final_image_resized.jpg "APOD/$img_nm$underline.jpg"
 
 #Changing the background
-gsettings set org.gnome.desktop.background picture-uri-dark "oldphotos/$img_nm$underline.jpg"
+gsettings set org.gnome.desktop.background picture-uri-dark "APOD/$img_nm$underline.jpg"
 gsettings set org.gnome.desktop.background picture-options "scaled"
 gsettings set org.gnome.desktop.background primary-color "#000000"
 gsettings set org.gnome.desktop.background secondary-color "#000000"
 
 rm background.png apod.jpg apod.html resized_background.jpg blurred_background.jpg  final_image_resized.jpg final_image.jpg
 
-echo "APOD background changer, Mohammad Badri Ahmadi, 28 Dec 2023"
+echo "Mohammad Badri Ahmadi, 28 Dec 2023"
+echo "Astronomy Picture of the Day (APOD) background changer"
 echo "Inspired from apod-wallpaper.sh (v1.8) coded by A. Dominik"
