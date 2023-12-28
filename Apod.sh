@@ -29,8 +29,9 @@ img_Summary=$(xmllint --html --xpath "/html/body/center[1]/p[2]/a/img/@alt" apod
 img_title=$(xmllint --html --xpath "/html/body/center[2]/b[1]/text()" apod.html 2>/dev/null | sed 's/\&#10;/\n/g')
 
 # Image name (title after replacing space with _)
-img_nm=${img_title// /_}
-
+#temp=${img_title// /_}
+#img_nm=${temp:1}
+img_nm=${img_title}
 # Download the image and save it as a JPEG file
 wget -q https://apod.nasa.gov/apod/"$img_src" -O apod.jpg
 
@@ -77,15 +78,14 @@ convert blurred_background.jpg final_image.jpg -gravity center -composite final_
 
 
 #Save the photo of the day
-underline="_"
 mkdir -p APOD
-cp final_image_resized.jpg "APOD/$img_nm$underline.jpg"
+cp final_image_resized.jpg "APOD/$img_nm.jpg"
 
 #Changing the background
-gsettings set org.gnome.desktop.background picture-uri-dark "APOD/$img_nm$underline.jpg"
-gsettings set org.gnome.desktop.background picture-options "scaled"
-gsettings set org.gnome.desktop.background primary-color "#000000"
-gsettings set org.gnome.desktop.background secondary-color "#000000"
+gsettings set org.gnome.desktop.background picture-uri-dark "APOD/$img_nm.jpg"
+#gsettings set org.gnome.desktop.background picture-options "scaled"
+#gsettings set org.gnome.desktop.background primary-color "#000000"
+#gsettings set org.gnome.desktop.background secondary-color "#000000"
 
 rm background.png apod.jpg apod.html resized_background.jpg blurred_background.jpg  final_image_resized.jpg final_image.jpg
 
