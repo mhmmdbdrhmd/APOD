@@ -25,5 +25,6 @@ Feel free to open an issue or pull request if you have any suggestions or find a
 
 ## Credits
 
-This project uses {Nasa_APOD)[https://apod.nasa.gov/apod/astropix.html]
+
+This project uses {Nasa_APOD}[https://apod.nasa.gov/apod/astropix.html]
 Inspired from (apod-wallpaper.sh)[https://homepages.thm.de/~admn12/pages/research/projectAPOD.html] script coded by A. Dominik
