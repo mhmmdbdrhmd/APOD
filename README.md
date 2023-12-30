@@ -1,6 +1,6 @@
 # APOD (Astronomy Picture of the Day) 
 
-This code would dounload the Astronomy Picture of the Day from Nasa's webpage for (APOD)[https://apod.nasa.gov/apod/astropix.html], and edits it as you can see in the examples below. Finally it sets the photo as the background.
+This code would dounload the Astronomy Picture of the Day from (Nasa's webpage for APOD)[https://apod.nasa.gov/apod/astropix.html], and edits it as you can see in the examples below. Finally it sets the photo as the background.
 
 ![ The Last Full Moon ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a931392e-52d2-4808-a04c-3a981545a22a)
 
