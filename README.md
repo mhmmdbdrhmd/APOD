@@ -1,35 +1,60 @@
-# APOD (Astronomy Picture of the Day) 
+# NASA APOD Desktop Background Setter
 
-This code would dounload the Astronomy Picture of the Day from [Nasa's webpage for APOD](https://apod.nasa.gov/apod/astropix.html), and edits it as you can see in the examples below. Finally it sets the photo as the background.
+## Overview
+The NASA APOD Desktop Background Setter is a sophisticated shell script designed to interface with NASA's Astronomy Picture of the Day (APOD) API. It elegantly automates the fetching and display of cosmic imagery, enriching the user's desktop experience with the awe-inspiring vastness of space.
 
-![ The Last Full Moon ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a931392e-52d2-4808-a04c-3a981545a22a)
+## Features
 
-![ Shakespeare in Space ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/add388e2-7eaf-44de-bad0-964fb1af816a)
+- 🌌 **Daily Space Imagery**: Downloads the APOD with descriptive metadata.
+- 💻 **Desktop Integration**: Seamlessly sets the APOD as the desktop wallpaper.
+
+## Gallery Preview
+
+The script transforms your desktop with images such as:
 
 ![ Jupiter and the Geminid ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a6e3b62b-77de-4c50-a995-0934d6593693)
+*Jupiter and the Geminid*
 
-## Usage
+![ The Cat's Eye Nebula in Optical and X-ray ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/34eaa7a1-ebff-45ef-83a0-b71b2953dafb)
+*The Cat's Eye Nebula in Optical and X-ray*
 
+![ NGC 1232: A Grand Design Spiral Galaxy ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/b29eebda-ce0e-46ff-9ccd-0a021993ba55)
+*NGC 1232: A Grand Design Spiral Galaxy*
+
+![ Shakespeare in Space ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/add388e2-7eaf-44de-bad0-964fb1af816a)
+*Shakespeare in Space*
+
+![ The Last Full Moon ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a931392e-52d2-4808-a04c-3a981545a22a)
+*The Last Full Moon*
+
+![ Trapezium: At the Heart of Orion ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/bb0b8f9c-609e-45b8-84c1-2294d9f34573)
+*Trapezium: At the Heart of Orion*
+
+## Getting Started
+
+### Prerequisites
+Ensure you have `curl` and `feh` installed on your Ubuntu system to fetch and set images.
+
+### Execution
+Run the script in your terminal:
 ```bash
 bash Apod.sh
 ```
-Tested on Ubuntu only. 
 
-## Contributing
+## Contributions
 
-Feel free to open an issue or pull request if you have any suggestions or find any bugs.
+- 🤝 **Collaborate with Us**: Contributions are welcomed to enhance the script's features or extend its compatibility.
+- 🐛 **Report Issues**: Use the GitHub issue tracker to report anomalies or suggest improvements.
 
-- [ ] Add Requirements
-- [ ] Make a windows compatible version
-- [ ] Add buttons (if possible) in the background to scroll through photo of different days.
+## Roadmap
 
-## Credits
+- [ ] Introduce dependency management with a `requirements.txt`.
+- [ ] Expand compatibility for Windows operating system.
+- [ ] Add interactive navigation for viewing past APOD images.
 
+## Acknowledgments
 
-This project uses [Nasa's webpage for APOD](https://apod.nasa.gov/apod/astropix.html)
+- 🛰️ This project is made possible thanks to the data provided by [NASA's APOD service](https://apod.nasa.gov/apod/astropix.html), allowing us to marvel at the universe's grandeur.
 
-Inspired by [apod-wallpaper.sh](https://homepages.thm.de/~admn12/pages/research/projectAPOD.html) script coded by A. Dominik
+For further assistance, discussions, or inquiries, please open an issue or reach out to the repository maintainers.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
