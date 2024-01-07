@@ -1,61 +1,57 @@
-# APOD Wallpaper: Daily Cosmic Beauty
 
-## Introduction
-Discover the cosmos with APOD Wallpaper, a shell script that brings the universe to your desktop. Drawing from NASA's Astronomy Picture of the Day, this script automates the process of downloading stunning space imagery and setting them as your wallpaper, offering a daily dose of celestial wonder.
+<h1 align="center">NASA Astronomy Picture of the Day (APOD) Desktop Experience</h1>
 
-## Key Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained? yes">
+  <img src="https://img.shields.io/github/last-commit/your-username/APOD-repo.svg" alt="GitHub last commit">
+  <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="Made with Bash">
+  <img src="https://img.shields.io/github/issues/your-username/APOD-repo.svg" alt="GitHub issues">
+  <img src="https://img.shields.io/badge/Contributions-welcome-orange.svg" alt="Contributions welcome">
+</p>
 
-- 📸 **Automated Image Download**: Retrieves the latest high-resolution image from NASA's APOD.
-- 🖼️ **Desktop Wallpaper Update**: Refreshes your desktop background with new space imagery each day.
+## 🌠 About The Project
+<details>
+<summary>🔭 Embark on a daily journey through the cosmos!</summary>
+<br>
+This project offers a celestial spectacle right on your desktop. Each day, a new vista of the universe unfolds as your backdrop, featuring NASA's Astronomy Picture of the Day. Immerse yourself in the beauty of the cosmos with images perfectly tailored to your screen's resolution.
+</details>
 
-## Visual Showcase
+## 🎆 Features
+- **Adaptive Image Resolution**: Automatically adjusts the APOD image to fit your screen's unique resolution.
+- **Daily Updates**: Fresh, breathtaking cosmic imagery to inspire your everyday computing.
+- **Personal Cosmic Gallery**: Saves each APOD image, building your own collection of astronomical wonders.
+- **Rich Metadata**: Provides insightful descriptions alongside each image for a deeper understanding of the universe.
 
-Embellish your desktop with a daily rotation of space photography:
+## 📥 Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your-username/APOD-repo.git
+   ```
+2. Navigate to the script directory
+3. Run the script
+   ```sh
+   ./Apod.sh
+   ```
 
-![ Jupiter and the Geminid ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a6e3b62b-77de-4c50-a995-0934d6593693)
-*Jupiter and the Geminid*
+## 🖥️ Customization
+Tailor the experience to your liking. Customize the script to modify image effects, save paths, and more.
 
-![ The Cat's Eye Nebula in Optical and X-ray ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/34eaa7a1-ebff-45ef-83a0-b71b2953dafb)
-*The Cat's Eye Nebula in Optical and X-ray*
+## 🌌 Usage
+Invoke the cosmic magic with a single command, and watch as your desktop transforms into a window to the stars.
 
-![ NGC 1232: A Grand Design Spiral Galaxy ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/b29eebda-ce0e-46ff-9ccd-0a021993ba55)
-*NGC 1232: A Grand Design Spiral Galaxy*
+## 🤝 Contributing
+All contributions are deeply appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
-![ Shakespeare in Space ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/add388e2-7eaf-44de-bad0-964fb1af816a)
-*Shakespeare in Space*
+## 📃 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-![ The Last Full Moon ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a931392e-52d2-4808-a04c-3a981545a22a)
-*The Last Full Moon*
+## 📬 Contact
+Mohammad Badri Ahmadi - mhmmdbdrhmd@gmail.com
 
-![ Trapezium: At the Heart of Orion ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/bb0b8f9c-609e-45b8-84c1-2294d9f34573)
-*Trapezium: At the Heart of Orion*
-
-## How to Use
-
-### Prerequisites
-- Ensure `curl` and `feh` are installed on your system.
-
-### Set Up and Run
-To initiate the script, navigate to the terminal and execute:
-```bash
-bash Apod.sh
-```
-
-## Get Involved
-
-- 🌟 **Star and Share**: If you appreciate this project, star it on GitHub and share it with the astronomy and developer community.
-- 👨‍💻 **Contributions**: Propose features, report bugs, or contribute code by opening an issue or pull request.
-
-## Upcoming Features
-
-- [ ] Creation of a `requirements.txt` for easier dependency management.
-- [ ] Windows compatibility for broader user access.
-- [ ] Functionality to browse and select from past APOD images.
-
-## Acknowledgments and Credits
-
-This script utilizes the APOD API provided by [NASA](https://api.nasa.gov/), a cornerstone for astronomy enthusiasts to explore the universe through daily imagery.
+## 🎉 Acknowledgments
+- [NASA APOD WEBSITE](https://api.nasa.gov/)
+- All the astronomers and developers who have inspired and contributed to this project.
 
 ---
-
-For collaboration or support, please reach out via GitHub issues or contact the maintainers directly.
+*Embrace the infinite beauty of the universe right from your desktop with NASA APOD Desktop Background Setter.*
