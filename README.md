@@ -2,7 +2,7 @@
 <h1 align="center">🌌 NASA Astronomy Picture of the Day (APOD) Desktop Background Setter</h1>
 
 <p align="center">
-  <img src="(https://github.com/mhmmdbdrhmd/APOD/assets/29101930/a6e3b62b-77de-4c50-a995-0934d6593693" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version 1.0.0">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained? yes">
   <img src="https://img.shields.io/github/last-commit/mhmmdbdrhmd/APOD.svg" alt="GitHub last commit">
   <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="Made with Bash">
