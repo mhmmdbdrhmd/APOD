@@ -32,6 +32,21 @@ The script transforms your desktop with images such as:
 ![ The Cat's Eye Nebula in Optical and X-ray ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/34eaa7a1-ebff-45ef-83a0-b71b2953dafb)
 *The Cat's Eye Nebula in Optical and X-ray*
 
+![ Black Hole Accreting with Jet ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/0d9d10d3-0f0f-48c0-9dbe-1b1cf2a7fa98)
+*Black Hole Accreting with Jet*
+
+![ CG4: The Globule and the Galaxy ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/3c93877e-2088-4485-a83e-bef020aff03c)
+*CG4: The Globule and the Galaxy*
+
+![ Filaments of the Vela Supernova Remnant ](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/6fd6f0e9-8c1c-44e1-b14f-5c82997b7dcb)
+*Filaments of the Vela Supernova Remnant*
+
+![The Solar Corona Unwrapped](https://github.com/mhmmdbdrhmd/APOD/assets/29101930/449d169c-96ea-4b5b-9173-34a8cf612b73)
+*The Solar Corona Unwrapped*
+
+
+
+
 ## 🛠️ Installation & Setup
 1. Clone the repository using SSH:
    ```sh
